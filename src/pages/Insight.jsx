@@ -1,13 +1,13 @@
 import Layout from "../components/Layout";
 
-const Status = () => {
+const Insight = () => {
   return (
     <Layout>
       <p className="text-muted text-sm tracking-wide">
-        STATUS: STANDBY
+        INSIGHT: STANDBY
       </p>
     </Layout>
   );
 };
 
-export default Status;
+export default Insight;

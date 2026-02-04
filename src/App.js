@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Inquiry from "./pages/Inquiry";
 import Framework from "./pages/Framework";
-import Status from "./pages/Status";
+import Insight from "./pages/Insight";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/inquiry" element={<Inquiry />} />
         <Route path="/framework" element={<Framework />} />
-        <Route path="/status" element={<Status />} />
+        <Route path="/insight" element={<Insight />} />
       </Routes>
     </BrowserRouter>
   );

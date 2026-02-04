@@ -4,7 +4,7 @@ const links = [
   { name: "Home", path: "/" },
   { name: "Framework", path: "/framework" },
   { name: "Inquiry", path: "/inquiry" },
-  { name: "Status", path: "/status" },
+  { name: "Insight", path: "/insight" },
 ];
 
 const FooterNav = () => {
