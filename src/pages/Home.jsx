@@ -1,8 +1,11 @@
 import React, { useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import Layout from "../components/Layout";
 import Button from "../components/Button";
 
 const Home = () => {
+  const navigate = useNavigate();
+
   useEffect(() => {
     const id = "champions-fonts";
     if (!document.getElementById(id)) {
@@ -48,6 +51,7 @@ const Home = () => {
           <Button
             label="Begin Evaluation →"
             className="bg-[#20b57a] text-black px-10 py-3 text-xs tracking-wide uppercase hover:opacity-90 transition"
+            onClick={() => navigate("/home")}
           />
         </div>
       </div>
